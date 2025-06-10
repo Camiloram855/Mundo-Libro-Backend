@@ -12,10 +12,10 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.camilo.libreria</groupId>
+	<groupId>com.camilo.biblioteca_virtual</groupId>
 	<artifactId>libreria</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>libreria</name>
+	<name>biblioteca_virtual</name>
 	<description>Proyecto para gestionar libros</description>
 
 	<properties>

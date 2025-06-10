@@ -1,6 +1,7 @@
-package com.camilo.libreria.model;
+package com.camilo.biblioteca_virtual.model;
 
 import jakarta.persistence.*;
+
 
 @Entity
 @Table(name = "Libro") // Asegura que se use la tabla correcta
@@ -21,6 +22,15 @@ public class Libro {
 
     @Column(columnDefinition = "TEXT", nullable = true)
     private String descripcion;
+    private double precio;
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
 
     // Constructor vacío
     public Libro() {

@@ -1,4 +1,4 @@
-package com.camilo.libreria;
+package com.camilo.biblioteca_virtual;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
